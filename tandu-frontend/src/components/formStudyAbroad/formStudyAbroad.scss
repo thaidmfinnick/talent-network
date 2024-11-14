@@ -1,0 +1,109 @@
+$primary-color: #f2b642;
+$secondary-color: #0857a3;
+.form-study{
+  .container {
+    align-items: center;
+    .formStudyAbroad {
+      max-width: 50rem;
+      background-color: $secondary-color;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 0 auto;
+      .header {
+        .titleForm {
+          font-size: 25px;
+        }
+        margin-bottom: 36px;
+      }
+      .form-control {
+        height: 50px;
+        margin-bottom: 18px;
+      }
+
+      .customSelect {
+        width: 100%;
+        .dropdown-toggle {
+          background-color: #fff;
+          color: #000;
+          margin: 0;
+          padding: 0;
+          border: 0px;
+          width: 100%;
+          margin-top: 8px;
+          display: flex;
+        }
+        .dropdown-toggle::after {
+          position: absolute;
+          right: 10px;
+          top: 24px;
+        }
+      }
+
+      .contact-btn {
+        border-radius: 30px;
+        width: 80%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+      }
+
+      .hotline-btn {
+        border-radius: 30px;
+        width: 80%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $primary-color;
+        .phone-number {
+          font-size: 24px;
+          color: $primary-color;
+        }
+      }
+      .hotline-btn:hover {
+        color: $primary-color;
+        background-color: white;
+      }
+    }
+  }
+}
+.custom-modal-form-study{
+  margin-top: 8vw;
+  width: 40vw; 
+  max-width: 50vw;
+  .modal-title{
+    font-size: 14px;
+        color: $secondary-color;
+  }
+  .body-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+/* Mobile */
+@media (max-width: 767px) {
+  .form-study {
+    .container {
+      .formStudyAbroad {
+        padding: 42px 24px;
+      }
+      button {
+        margin: 12px auto;
+      }
+    }
+  }
+  .custom-modal-form-study{
+    margin-top: 20vw;
+        margin-left: 7vw;
+        width: 100vw; /* Occupy the 90% of the screen width */
+        max-width: 87vw;
+   
+  }
+}

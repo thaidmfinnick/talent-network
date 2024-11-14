@@ -1,0 +1,96 @@
+$secondary-color: #0857A3;
+$primary-color: #F2B642;
+
+.section {
+    padding: 60px 0;
+    .section-heading {
+        margin: 32px 0 12px;
+        text-transform: uppercase;
+        color: black !important;
+    }
+    
+    .question{
+        color: $secondary-color;
+        // cursor: pointer;
+        font-size: 16px;
+        // text-decoration: underline;
+        margin-bottom: 70px;
+        font-weight: 600;
+    }
+}
+.country {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .flag {
+        width: 288px;
+        height: 192px;
+        margin:0 32px 47px;
+        .flag-img {
+            width: 288px;
+            height: 192px;
+            
+            position: relative;
+            width: 18rem;
+            display: block;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                display: block;
+                transition: transform .5s;
+            }
+            .flag-description {
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                padding-bottom: 24px;
+                z-index: 4;
+    
+                h5 {
+                    color: white;
+                    text-transform: uppercase;
+                }
+    
+                .read-more-btn {
+                    display: none;
+                    border: none;
+                    color: white;
+                    background-color: #1272cc;
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                }
+            }
+        }
+        .flag-img::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(180deg,rgba(0,0,0,0) 25.29%,rgba(0,0,0,.5) 91.18%);
+            
+        }
+        .flag-img:hover {
+            img {
+                transform: scale(1.1);
+            }
+            .flag-description {
+                animation-name: fadeIn;
+            }
+            .read-more-btn {
+                display: inline-block;
+            }
+        }
+    }
+    .flag:last-child {
+        margin-bottom: 20px;
+    }
+}

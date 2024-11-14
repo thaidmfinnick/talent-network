@@ -1,0 +1,45 @@
+$secondary-color: #0857a3;
+.custom-video-modal {
+    margin-top: 8vw;
+    width: 60vw; /* Occupy the 90% of the screen width */
+    max-width: 87vw;
+    background-color: black;
+    .modal-header{
+        padding: 5px;
+        .btn-close{
+            font-size: 10px;
+        }
+    }
+    .title{
+        font-size: 14px;
+        color: $secondary-color;
+        // background-color: $secondary-color;
+    }
+    .body-modal{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        .video{
+            width: 100%;
+            height: auto;
+        }
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .custom-video-modal {
+        margin-top: 20vw;
+        margin-left: 7vw;
+        width: 100vw; 
+        max-width: 87vw;
+        .title{
+            margin: 0 !important;
+            color: $secondary-color;
+
+            padding: 0 !important;
+            font-size: 12px;
+            // background-color: $secondary-color;
+
+        }
+      }
+  }

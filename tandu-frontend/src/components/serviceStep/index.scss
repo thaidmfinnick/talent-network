@@ -1,0 +1,89 @@
+.service-step {
+    background-image: url("../../assets/image/background.png");
+    color: white;
+    padding: 48px 0 56px;
+    .section-title .section-sub-title {
+        text-align: center;
+    }
+
+    .list-step {
+        margin-top: 32px;
+        .row {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .step-item {
+            min-height: 15rem;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 8px;
+            position: relative;
+            cursor: pointer;
+            visibility: visible;
+            animation-delay: 0.2s;
+            animation-name: fadeInUp;
+
+            .number {
+                font-size: 5.6rem;
+            }
+
+            p {
+                margin-bottom: 0;
+                padding-bottom: 1rem;
+            }
+
+            .desc {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: #fff;
+                color: black;
+                border-radius: 8px;
+                padding: 1.5rem 1rem;
+                text-align: center;
+                max-height: 100%;
+                overflow-y: hidden;
+                opacity: 0;
+                transform: translateY(-100%);
+                transition: .4s ease-out 0s;
+                visibility: hidden;
+                height: 100%;
+                font-size: 12px;
+            }
+        }
+        .step-item:hover {
+            border: none;
+            .desc {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0); 
+                overflow-y: auto;
+            }
+        }
+
+        .col-6 {
+            padding: 0 14px;
+        }
+    }
+}
+
+/* PC */
+@media (min-width: 990px) {
+    .col-lg-1-5 {
+        width: 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}

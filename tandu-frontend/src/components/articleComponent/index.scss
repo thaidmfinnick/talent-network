@@ -1,0 +1,75 @@
+$primary-color: #f2b642;
+$secondary-color: #0857a3;
+
+.about-service {
+    padding: 48px 0 56px;
+    .about-content {
+        p, ul {
+            color: #777981;
+        }
+
+        .title {
+            font-size: 20px;
+            color: $primary-color;
+        }
+
+        .heading {
+            color: #063968;
+            margin-bottom: 24px;
+        }
+
+        ul {
+            padding-left: 30px;
+            list-style: disc;
+            li {
+                margin-bottom: 8px;
+            }
+        }
+        .img-box {
+            max-width: 100%;
+            margin-bottom: 20px;
+            max-height: 60vw;
+            text-align: center;
+            .img{
+                width: 60vw;
+                max-height: 50vw;
+            }
+        }
+        .color-primary {
+            color: $primary-color;
+        }
+    
+        .color-secondary {
+            color: $secondary-color;
+        }
+        .section-description {
+            font-weight: 600;
+        }
+    }
+    
+}
+
+
+/* PC */
+@media (min-width: 990px) {
+    .col-lg-1-5 {
+        width: 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (max-width: 767px) {
+    
+        .img{
+            width: 80vw !important;
+            max-height: 40vw;
+        }
+    
+    
+}

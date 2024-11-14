@@ -1,0 +1,392 @@
+$primary-color: #F2B642;
+$secondary-color: #0857A3;
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home-slider {
+    max-height: 70vh;
+    img {
+        width: 100%;
+    }
+    
+}
+.padding-side{
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+}
+.home-introduce {
+    background-image: url("../../assets/image/background.png");
+    background-size: cover; /* This will make the image cover the entire element */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center;
+    color: white;
+    padding: 60px 12px 48px;
+    
+
+    .introduce {
+        margin-bottom: 24px;
+
+        .title {
+            color: $primary-color;
+        }
+        .company-name-box {
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .company-name-box::after {
+            position: absolute;
+            width: 7rem;
+            height: 1px;
+            background: #fff;
+            left: 0;
+            bottom: -12px;
+            content: "";
+        }
+        .description {
+            font-size: 14px;
+        }
+
+        .img-box {
+            .intro-img {
+                border-radius: 8px;
+                overflow: hidden;
+                width: 100%;
+            }
+        }
+    }
+
+    .stat-list {
+        .col-lg-4 {
+            padding:0 12px;
+        }
+
+        .stat-item {
+            border: 1px dashed $primary-color;
+            border-radius: 4px;
+            display: flex;
+            margin: 0 4px 24px;
+            padding: 4px 12px;
+            height: 9rem;
+
+            .icon {
+                font-size: 40px;
+                margin-right: 12px;
+                svg {
+                    vertical-align: text-top;
+                    margin-top: 4px;
+                }
+            }
+
+            .number {
+                color: $primary-color;
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 4px;
+            }
+            .text {
+                margin-bottom: 8px;
+            }
+        }
+
+        .stat-item:hover {
+            background-color: white;
+            .icon, .text {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 52px;
+}
+.countries{
+    background-image: url("../../assets/bg-world.png");
+}
+.news {
+    background-image: url("../../assets/image/bg-2.png");
+    padding: 54px 0;
+    .container {
+        margin-bottom: 12px;
+    }
+
+    .list-news {
+        .row {
+            margin-bottom: 24px;
+        }
+
+        .col {
+            margin-bottom: 16px;
+        }
+
+        .news-content {
+            box-shadow: 0 1px 2px rgba(0,0,0,.1);
+            border-radius: 6px;
+
+            img {
+                width: 100%;
+                cursor: pointer;
+            }
+            .description {
+                padding: 10px;
+                .news-title {
+                    cursor: pointer;
+                }
+                .news-title:hover {
+                    color: #0857A3;
+                }
+                .news-date, .news-description {
+                    color: gray;
+                    margin-bottom: 4px;
+                }
+
+                .news-date {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .btn-box {
+        text-align: center;
+        .more-btn {
+            border: none;
+            cursor: pointer;
+            background-color: $secondary-color;
+            color: white;
+            padding: 8px 32px;
+            border-radius: 30px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.scholarship {
+    background-image: url("../../assets/image/background.png");
+    background-size: cover; /* This will make the image cover the entire element */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center;
+    color: white;
+    padding: 54px 0 68px;
+    .col-lg-8 {
+        color: black;
+        margin-bottom: 16px;
+        
+        .row {
+            min-height: 100%;
+            overflow: hidden;
+            background: white;
+            border-radius: 8px;
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+        .uni-img{
+            padding: 0;
+        }
+
+        .text {
+            cursor: pointer;
+            padding: 10px 24px;
+        }
+        .university {
+            
+            display: flex;
+            align-items: center;
+            .logo {
+                height: 48px;
+                width: auto;
+                margin-right: 12px;
+            }
+            .uni-name {
+                margin: 0;
+            }
+            margin-bottom: 8px;
+        }
+
+        .title {
+            margin-bottom: 18px;
+        }
+        .info {
+            margin: 0;
+        }
+    }
+
+    .col-lg-4 {
+        .list-scholar {
+            li:first-child {
+                a {
+                    padding-top: 0;
+                }
+            }
+            a {
+                cursor: pointer;
+                display: flex;
+                img {
+                    max-width: 50px;
+                    margin-right: 8px;
+                }
+                padding: 12px 0;
+                border-bottom: 1px solid white;
+            }
+
+            a:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    .read-more {
+        color: white;
+        cursor: pointer;
+    }
+    .read-more:hover {
+        color: $primary-color;
+    }
+}
+
+.feedback {
+    padding: 54px 0 66px;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    background-image: linear-gradient(180deg, white, #fdebc8);
+    h4 {
+        margin-bottom: 32px;
+    }
+
+    .col-lg-6 {
+        padding: 0 16px;
+        margin-bottom: 24px;
+    }
+
+    .col-lg-6:last-child {
+        margin-bottom: 0;
+    }
+    
+    .feedback-box {
+        background-color: white;
+        padding: 24px;
+        border-radius: 12px;
+        overflow: hidden;
+        height: 380px;
+        
+        .feedback-content {
+            position: relative;
+            height: 241px;
+            display: flex;
+            border-bottom: 1px solid #c8c7c7;
+            margin-bottom: 24px;
+            .arrow {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                background-color: #0857A3;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                top: 50%;
+                cursor: pointer;
+            }
+
+            .left {
+                left: 0;
+            }
+
+            .right {
+                right: 0;
+            }
+
+            .avatar {
+                
+                img {
+                    border-radius: 50%;
+                    width: 70px;
+                }
+            }
+
+            .desc {
+                padding: 0 20px;
+                overflow: auto;
+            }
+        }
+
+        .feedback-footer {
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.partner {
+    padding: 54px 0 66px;
+    background-image: url("../../assets/bg-world.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .list-partner-inner {
+        margin-bottom: 24px;
+
+        h4 {
+            margin-bottom: 32px;
+        }
+    }
+    .list-partner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .partner-item {
+            position: relative;
+            border-radius: 8px;
+            cursor: pointer;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+            padding: 0 12px 12px;
+            .desc {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: rgba(122, 122, 123, 0.5);
+                border-radius: 8px;
+                padding: 3rem 2rem;
+                text-align: center;
+                max-height: 100%;
+                overflow-y: hidden;
+                opacity: 0;
+                transform: translateY(-100%);
+                transition: .4s ease-out 0s;
+                visibility: hidden;
+            }
+        }
+        .partner-item:hover {
+            .desc {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0); 
+            }
+        }
+    }
+}
+
+        

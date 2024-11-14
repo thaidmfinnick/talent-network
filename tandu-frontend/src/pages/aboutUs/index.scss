@@ -1,0 +1,74 @@
+.about {
+    .countries{
+        background-image: url("../../assets/bg-world.png");
+    }
+
+    .home-introduce {
+        background: none;
+        .company-name {
+            color: #063968;
+            font-weight: 600;
+            position: relative;
+        }
+        .company-name-box::after {
+            position: absolute;
+            width: 7rem;
+            height: 1px;
+            background: #777981;
+            left: 0;
+            bottom: -12px;
+            content: "";
+        }
+        .description {
+            color: #777981;
+        }
+        .img-box {
+            .borderColor {
+                width: 90%;
+                border: 1px solid #f2b642;
+                border-radius: 8px;
+                img {
+                    transform: translateX(-20px);
+                    transform: translateY(-20px);
+                    margin-left: 20px;
+                    border-radius: 8px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .reason {
+        background-image: url("../../assets/image/background.png");
+        background-size: cover; /* This will make the image cover the entire element */
+        background-repeat: no-repeat; /* This will prevent the image from repeating */
+        background-position: center;
+        color: white;
+    }
+    .join-us {
+        background-image: url("../../assets/jubg.png");
+        color: white;
+        text-align: center;
+        max-height: 26rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 7rem 0;
+        h2 {
+            margin-bottom: 60px;
+            font-size: 36px;
+        }
+        .join-us-btn {
+            background-color: white;
+            border-color: #063968;
+            color: #063968;
+            padding: 10px 32px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .join-us-btn:hover {
+            background-color: #063968;
+            color: white;
+        }
+    }
+}

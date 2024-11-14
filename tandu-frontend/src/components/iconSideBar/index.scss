@@ -1,0 +1,42 @@
+$icon-top: 20px;
+
+.loader_cube {
+  position: fixed;
+  bottom: $icon-top;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #0866ff;
+  cursor: pointer;
+}
+
+.loader_cube--color {
+  z-index: 1;
+  background: #fff;
+  animation: loadtwo 0.25s ease-in-out infinite;
+}
+
+@keyframes loadtwo {
+  50% {
+    transform: rotate(-20deg);
+  }
+}
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+  }
+}
+.phone {
+  bottom: $icon-top + 140px;
+
+  font-size: 10px !important;
+  color: #fff;
+  background-color: #39b54a;
+  border: #39b54a solid 8px;
+}
+.zalo {
+  bottom: $icon-top + 70px;
+  border: #1a86ec solid 8px;
+  background-color: #0866ff;
+  color: #fff;
+}

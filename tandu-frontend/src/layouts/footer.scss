@@ -1,0 +1,109 @@
+$primary-color: #F2B642;
+$secondary-color: #0857A3;
+
+.footer-img{
+    width: 100%;
+    height: 300px;
+    background-image: url("../assets/image/bg-form.png");
+    background-size: cover; /* This will make the image cover the entire element */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; 
+}
+
+.footer {
+    padding: 48px 0;
+    bottom: 0;
+    background-color: black;
+    .footer-content {
+        padding: 0 30px;
+        
+        .row {
+            margin: 0;
+            padding: 0;
+           
+        }
+        .border-botom{
+            border-bottom: 1px solid #b8b8b9;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .footer-item {
+            margin-bottom: 12px;
+            
+            .company-logo {
+                width: 120px;
+                margin-bottom: 12px;
+            }
+
+            .company-phone {
+                font-size: 18px;
+                .phone-number {
+                    font-weight: 600;
+                    color: $primary-color;
+                }
+            }
+
+            .p-heading {
+                color: white;
+                font-weight: 600;
+            }
+
+            span, li {
+                color: #b8b8b9;
+            }
+
+            .office-item {
+                margin-bottom: 12px;
+            }
+
+            .menu-list {
+                .menu-item {
+                    margin-bottom: 14px;
+
+                    a {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .social-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            align-items: end;
+
+            .social-icon {
+                font-size: 36px;
+                margin-right: 12px;
+                cursor: pointer;
+                margin-top: 32px;
+            }
+            
+            #fb-icon {
+                color: #1877F2;
+            }
+
+            #twitter-icon {
+                color: #1DA1F2;
+            }
+
+            #ig-icon {
+                color: #D0308D;
+            }
+
+            #link-icon {
+                color: #0A66C2;
+            }
+        }
+    }
+
+    .copyright {
+        color: white;
+        text-align: center;
+        margin: 18px 0 0;
+    }
+}

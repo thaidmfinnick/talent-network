@@ -1,0 +1,207 @@
+$primary-color: #f2b642;
+$secondary-color: #0857a3;
+.hidden {
+  display: none;
+}
+
+.banner {
+  background-color: $secondary-color;
+  padding: 0 12px;
+
+  .banner-content {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    padding: 6px 0;
+
+    .hotline {
+      border-right: 2px solid #d9d9d9;
+      padding-right: 12px;
+      margin-right: 12px;
+
+      span {
+        color: $primary-color;
+      }
+    }
+
+    .slogan {
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+}
+.on-scroll {
+    transform: translate3d(0, 0, 0);
+    top: 0px !important;
+}
+.main-header {
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  box-shadow: 1px 4px 27px -5px rgba(0, 0, 0, 0.3);
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .bars-icon {
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+
+      .header-menu {
+        list-style: none;
+        padding: 24px 0;
+      }
+      .signin-btn {
+        background-color: #0857a3;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+/* Tablet & mobile*/
+@media (max-width: 989px) {
+  .bars-icon {
+    display: block;
+    position: absolute;
+    left: 20px;
+  }
+
+  .main-logo {
+    img {
+      width: 60px;
+    }
+    margin: 8px auto;
+  }
+
+  .header-menu-mb {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    height: 100%;
+    width: 256px;
+    z-index: 11;
+    border-left: 1px solid rgb(256, 256, 256, 0.1);
+    animation: FadeIn ease 0.3s;
+    list-style: none;
+    top: 0px;
+    margin: 0;
+    padding: 8px 0 0;
+
+    .hide-icon {
+      position: absolute;
+      font-size: 20px;
+      right: 10px;
+      top: 4px;
+    }
+
+    .menu-item {
+      font-weight: 600;
+      cursor: pointer;
+      margin: 0 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid $primary-color;
+    }
+
+    .menu-item:hover {
+      color: $secondary-color;
+    }
+  }
+
+  .btn-box-tbm {
+    position: absolute;
+    right: 12px;
+
+    .signin-btn {
+        background-color: #0857a3;
+        color: white;
+        border: none;
+        padding: 8px 8px;
+        border-radius: 20px;
+        font-size: 11px;
+      }
+  }
+
+  .hidden-mb {
+    display: none;
+  }
+
+  .header-menu-pc {
+    display: none;
+  }
+
+  .hidden-pc {
+    display: block;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+
+  .main-header {
+    top: 0;
+  }
+}
+
+/* Tablet */
+@media (min-width: 767px) and (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+}
+
+/* PC */
+@media (min-width: 990px) {
+  .bars-icon {
+    display: none;
+  }
+
+  .main-logo {
+    img {
+      width: 76px;
+    }
+  }
+
+  .header-menu-pc {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    .hide-icon {
+      display: none;
+    }
+
+    .menu-item {
+      font-weight: 600;
+      cursor: pointer;
+      margin: 0 20px;
+    }
+
+    .menu-item:hover {
+      color: $secondary-color;
+    }
+
+    .signin-btn {
+      margin-left: 20px;
+    }
+  }
+  .header-menu-mb {
+    display: none;
+  }
+}

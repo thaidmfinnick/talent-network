@@ -1,0 +1,46 @@
+$primary-color: #F2B642;
+$secondary-color: #0857A3;
+.service {
+    padding: 56px 0 68px;
+}
+.bodyServicePage {
+    width: 100%;
+    padding: 48px 12px 0;
+    align-items: center;
+    margin: auto 0;
+
+    .leftBody {
+      margin-top: 48px;
+      .borderColor {
+        width: 90%;
+        border: 1px solid $primary-color;
+        border-radius: 14px;
+        .imgBody {
+          transform: translateX(-20px);
+          transform: translateY(-20px);
+          margin-left: 20px;
+          border-radius: 14px;
+          height: max 100%;
+          width: 100%;
+        }
+      }
+    }
+    .rightBody {    
+      .name {
+        width: 90%;
+      }
+      .description {
+        width: 90%;
+      }
+      .viewMore {
+        cursor: pointer;
+      }
+    }
+}
+.bodyServicePage:first-child {
+    padding-top: 0;
+}
+
+.bodyServicePage:nth-child(even) {
+  flex-direction: row-reverse;
+}

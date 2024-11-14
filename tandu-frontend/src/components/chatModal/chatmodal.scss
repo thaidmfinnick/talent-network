@@ -1,0 +1,77 @@
+$primary-color: #F2B642;
+$secondary-color: #0857A3;
+
+.chat-button {
+    button {
+        border: none;
+        color: white;
+        background-color: $secondary-color;
+        width: 250px;
+        padding: 10px 24px;
+        border-radius: 6px 6px 0 0;
+        font-size: 16px;
+        cursor: pointer;
+        z-index: 10;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 12px;
+    }
+}
+
+.chat-modal {
+    z-index: 11;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 12px;
+    border-radius: 6px 6px 0 0;
+    border: 1px solid white;
+    overflow: hidden;
+    
+    .modal-heading {
+        background-color: #0857A3;
+        color: white;
+        position: relative;
+        padding: 24px 48px 12px;
+
+        .hide-icon {
+            cursor: pointer;
+            position: absolute;
+            top: 4px;
+            right: 6px;
+            font-size: 20px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .modal-form {
+        background-color: #f0f1f3;
+        padding: 16px 20px;
+        form {
+            display: flex;
+            flex-direction: column;
+
+            input, textarea {
+                margin-bottom: 16px;
+            }
+
+            .start-btn {
+                border: none;
+                background-color: $secondary-color;
+                color: white;
+                border-radius: 4px;
+                padding: 8px 0;
+            }
+        }
+
+    }
+}
+
+
+.hidden {
+    display: none;
+}

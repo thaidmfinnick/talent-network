@@ -1,0 +1,31 @@
+$secondary-color: #0857a3;
+
+.custom-modal-form-submit{
+    margin-top: 8vw;
+    width: 40vw; 
+    max-width: 50vw;
+    background-color: $secondary-color;
+    .container{
+        background-color: $secondary-color  ;
+    }
+    .close{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    .custom-modal-form-submit{
+      margin-top: 20vw;
+          margin-left: 7vw;
+          width: 100vw; /* Occupy the 90% of the screen width */
+          max-width: 87vw;
+     
+    }
+  }

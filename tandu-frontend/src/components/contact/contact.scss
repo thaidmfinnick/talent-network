@@ -1,0 +1,67 @@
+$primary-color: #F2B642;
+$secondary-color: #0857A3;
+
+.second-color {
+    color: $secondary-color;
+}
+
+.contact-box {
+    background-color: #fafafc;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    // border: 1px solid $secondary-color;
+
+    ul {
+        
+    }
+    .contact-heading {
+        .company-name {
+            text-transform: uppercase;
+            color: $secondary-color;
+            margin: 12px 0;
+        }
+    
+        .company-phone {
+            margin: 0;
+        }
+    }
+
+    .list-office {
+        list-style: none;
+        padding: 0;
+        margin: 12px 0;
+
+        .office-item {
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f0f1f3;
+            margin-bottom: 16px;
+
+            .office-name {
+                background-color: $secondary-color;
+                color: white;
+                padding: 8px 16px;
+                margin: 0;
+            }
+
+            .office-desc {
+                padding: 0 16px;
+                p {
+                    margin: 8px 0;
+                }
+            }
+        }
+
+        .office-item:last-child {
+            margin: 0;
+        }
+    }
+
+    .phone-number {
+        font-weight: 600;
+        color: $primary-color;
+    }
+}
+
+
