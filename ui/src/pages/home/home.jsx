@@ -8,6 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { ConstructionsSection } from "../../components/ContructionsSection/ConstructionsSection";
 import { HeroSection } from "../../components/HeroSection/HeroSection";
+import { ServicesSection } from "../../components/SevicesSection/SevicesSection";
+import { AltServicesSection } from "../../components/AltServicesSection/AltServicesSection";
 
 const Home = () => {
   AOS.init();
@@ -20,6 +22,8 @@ const Home = () => {
     <>
       <HeroSection />
       <ConstructionsSection />
+      <ServicesSection />
+      <AltServicesSection />
     </>
   );
 };
