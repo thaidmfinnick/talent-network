@@ -6,8 +6,8 @@ import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
-
+import { ConstructionsSection } from "../../components/ContructionsSection/ConstructionsSection";
+import { HeroSection } from "../../components/HeroSection/HeroSection";
 
 const Home = () => {
   AOS.init();
@@ -17,7 +17,10 @@ const Home = () => {
 
   },[])
   return (
-   <>HOme</>
+    <>
+      <HeroSection />
+      <ConstructionsSection />
+    </>
   );
 };
 
