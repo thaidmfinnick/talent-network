@@ -22,10 +22,10 @@ $secondary-color: #0857A3;
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
-  color: var(--color-secondary);
+  color: $secondary-color;
 }
 
 .constructions .card-item p {
-  color: var(--color-secondary);
+  color: $secondary-color;
   margin: 0;
 }

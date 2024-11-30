@@ -1,9 +1,9 @@
 import './HeroSection.scss';
-import heroCarousel1 from '../../assets/hero-carousel-1.jpg';
-import heroCarousel2 from '../../assets/hero-carousel-2.jpg';
-import heroCarousel3 from '../../assets/hero-carousel-3.jpg';
-import heroCarousel4 from '../../assets/hero-carousel-4.jpg';
-import heroCarousel5 from '../../assets/hero-carousel-5.jpg';
+import heroCarousel1 from '../../assets/image/hero-carousel-1.jpg';
+import heroCarousel2 from '../../assets/image/hero-carousel-2.jpg';
+import heroCarousel3 from '../../assets/image/hero-carousel-3.jpg';
+import heroCarousel4 from '../../assets/image/hero-carousel-4.jpg';
+import heroCarousel5 from '../../assets/image/hero-carousel-5.jpg';
 
 export const HeroSection = () => {
     return (

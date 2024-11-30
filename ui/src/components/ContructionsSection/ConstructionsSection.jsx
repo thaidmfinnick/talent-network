@@ -1,8 +1,8 @@
 import { CardItem } from "./CardItem/CardItem"
-import constructionImg1 from '../../assets/constructions-1.jpg';
-import constructionImg2 from '../../assets/constructions-2.jpg';
-import constructionImg3 from '../../assets/constructions-3.jpg';
-import constructionImg4 from '../../assets/constructions-4.jpg';
+import constructionImg1 from '../../assets/image/constructions-1.jpg';
+import constructionImg2 from '../../assets/image/constructions-2.jpg';
+import constructionImg3 from '../../assets/image/constructions-3.jpg';
+import constructionImg4 from '../../assets/image/constructions-4.jpg';
 
 const constructionsData = {
     heading: 'Constructions',
