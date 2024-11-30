@@ -10,6 +10,8 @@ import { ConstructionsSection } from "../../components/ContructionsSection/Const
 import { HeroSection } from "../../components/HeroSection/HeroSection";
 import { ServicesSection } from "../../components/SevicesSection/SevicesSection";
 import { AltServicesSection } from "../../components/AltServicesSection/AltServicesSection";
+import { FeaturesSection } from "../../components/FeaturesSection/FeaturesSection";
+import { RecentPostsSection } from "../../components/RecentPostsSection/RecentPostsSection";
 
 const Home = () => {
   AOS.init();
@@ -24,6 +26,8 @@ const Home = () => {
       <ConstructionsSection />
       <ServicesSection />
       <AltServicesSection />
+      <FeaturesSection />
+      <RecentPostsSection />
     </>
   );
 };
