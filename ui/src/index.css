@@ -255,11 +255,26 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.icon-header{
+  z-index: 1000;
+  position: absolute;
+top: 0;
+left: 0;
+right: 0  ;
+}
+.icon-navbar li{
+padding: 10px 0px 10px 10px !important;
+}
+.social-link-icon {
+  }
+.social-link-icon a{
+  margin: 10px;
+}
 .header {
   z-index: 997;
   position: absolute;
-  padding: 30px 0;
-  top: 0;
+  padding: 0;
+  top: 30px;
   left: 0;
   right: 0;
 }
@@ -2291,7 +2306,6 @@ section {
   padding: 0;
   color: var(--color-secondary);
 }
-
 .blog .post-author .social-links {
   margin: 0 10px 10px 0;
 }
