@@ -1,10 +1,13 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import './header.scss'
+import './header.scss';
+import { useTranslation } from "react-i18next";
+
 export const Header = () => {
 
 
   const [scrollY, setScrollY] = useState(0);
+  const { t } = useTranslation();
   useEffect(() => {
     window.addEventListener("scroll", () => setScrollY(window.scrollY));
 
@@ -22,7 +25,7 @@ export const Header = () => {
         {/* Uncomment the line below if you also wish to use an image logo */}
         {/* <img src="assets/img/logo.png" alt=""> */}
         <h1>
-          UpConstruction<span>.</span>
+          {t("page.header.logo.title")}<span>.</span>
         </h1>
       </a>
       <i className="mobile-nav-toggle mobile-nav-show bi bi-list" />
