@@ -14,11 +14,9 @@ export const HeroSection = () => {
                 <div class="container">
                     <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h2 data-aos="fade-down">{t("page.hero-section.tilte.welcome")}<span>UpConstruction</span></h2>
-                        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+                        <h2 data-aos="fade-down">{t("page.hero-section.tilte.welcome")}<span>{t("page.hero-section.tilte.construction")}</span></h2>
+                        <p data-aos="fade-up">{t("page.hero-section.tilte.lorem")}</p>
+                        <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">{t("page.hero-section.tilte.getstarted")}</a>
                     </div>
                     </div>
                 </div>

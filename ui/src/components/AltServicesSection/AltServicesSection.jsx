@@ -1,47 +1,52 @@
 import { IconBox } from "./IconBox/IconBox"
 import './AltServicesSection.scss'
 import AltServicesImg from '../../assets/image/alt-services.jpg';
+import { useTranslation } from "react-i18next";
 
-const altServicesData = [
-    {
-        icon: <i class="bi bi-easel flex-shrink-0"></i>,
-        title: 'Lorem Ipsum',
-        desc: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident'
-    },
-    {
-        icon: <i class="bi bi-patch-check flex-shrink-0"></i>,
-        title: 'Nemo Enim',
-        desc: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque'
-    },
-    {
-        icon: <i class="bi bi-brightness-high flex-shrink-0"></i>,
-        title: 'Dine Pad',
-        desc: 'Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis'
-    },
-    {
-        icon: <i class="bi bi-brightness-high flex-shrink-0"></i>,
-        title: 'Tride clov',
-        desc: 'Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi'
-    },
-]
 
 export const AltServicesSection = () => {
+    const { t } = useTranslation(); 
+
+    const altServicesData = [
+        {
+            icon: <i className="bi bi-easel flex-shrink-0"></i>,
+            title: t("altServices.items.0.title"), 
+            desc: t("altServices.items.0.desc")   
+        },
+        {
+            icon: <i className="bi bi-patch-check flex-shrink-0"></i>,
+            title: t("altServices.items.1.title"),
+            desc: t("altServices.items.1.desc")
+        },
+        {
+            icon: <i className="bi bi-brightness-high flex-shrink-0"></i>,
+            title: t("altServices.items.2.title"),
+            desc: t("altServices.items.2.desc")
+        },
+        {
+            icon: <i className="bi bi-brightness-high flex-shrink-0"></i>,
+            title: t("altServices.items.3.title"),
+            desc: t("altServices.items.3.desc")
+        },
+    ];
+
     return (
-        <section id="alt-services" class="alt-services">
-            <div class="container" data-aos="fade-up">
-                <div class="row justify-content-around gy-4">
-                    <div class="col-lg-6 img-bg" style={{backgroundImage: `url(${AltServicesImg})`}} data-aos="zoom-in"
+        <section id="alt-services" className="alt-services">
+            <div className="container" data-aos="fade-up">
+                <div className="row justify-content-around gy-4">
+                    <div className="col-lg-6 img-bg" style={{ backgroundImage: `url(${AltServicesImg})` }} data-aos="zoom-in"
                         data-aos-delay="100"></div>
 
-                    <div class="col-lg-5 d-flex flex-column justify-content-center">
-                        <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                        <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus
-                        laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                    <div className="col-lg-5 d-flex flex-column justify-content-center">
+                        <h3>{t("altServices.heading")}</h3> 
+                        <p>{t("altServices.description")}</p>
 
-                        {altServicesData.map((item, index) => <IconBox item={item} key={index}/>)}
+                        {altServicesData.map((item, index) => (
+                            <IconBox item={item} key={index} />
+                        ))}
                     </div>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
