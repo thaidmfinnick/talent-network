@@ -3,95 +3,115 @@ import featureImg2 from '../../assets/image/features-2.jpg'
 import featureImg3 from '../../assets/image/features-3.jpg'
 import featureImg4 from '../../assets/image/features-4.jpg'
 import './FeaturesSection.scss'
-
-const featuresData = [
-    {
-        tabId: 'tab-1',
-        tabName: 'Modisit',
-        title: 'Voluptatem dignissimos provident',
-        subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        contents: [
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'Duis aute irure dolor in reprehenderit in voluptate velit.',
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.'
-        ],
-        img: featureImg1
-    },
-    {
-        tabId: 'tab-2',
-        tabName: 'Praesenti',
-        title: 'Neque exercitationem debitis',
-        subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        contents: [
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'Duis aute irure dolor in reprehenderit in voluptate velit.',
-            'Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.',
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.',
-        ],
-        img: featureImg2
-    },
-    {
-        tabId: 'tab-3',
-        tabName: 'Explica',
-        title: 'Voluptatibus commodi accusamu',
-        subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        contents: [
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'Duis aute irure dolor in reprehenderit in voluptate velit.',
-            'Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.',
-        ],
-        img: featureImg3
-    },
-    {
-        tabId: 'tab-4',
-        tabName: 'Nostrum',
-        title: 'Omnis fugiat ea explicabo sunt',
-        subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        contents: [
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'Duis aute irure dolor in reprehenderit in voluptate velit.',
-            'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.'
-        ],
-        img: featureImg4
-    },
-]
-
+import { useTranslation } from 'react-i18next';
 export const FeaturesSection = () => {
+    const { t } = useTranslation(); 
+
+    const featuresData = [
+        {
+            tabId: "tab-1",
+            tabName: t("page.featuresSection.items.0.tabName"),
+            title: t("page.featuresSection.items.0.title"), 
+            subTitle: t("page.featuresSection.items.0.subTitle"), 
+            contents: [
+                t("page.featuresSection.items.0.contents.0"), 
+                t("page.featuresSection.items.0.contents.1"),
+                t("page.featuresSection.items.0.contents.2"),
+            ],
+            img: featureImg1,
+        },
+        {
+            tabId: "tab-2",
+            tabName: t("page.featuresSection.items.1.tabName"),
+            title: t("page.featuresSection.items.1.title"),
+            subTitle: t("page.featuresSection.items.1.subTitle"),
+            contents: [
+                t("page.featuresSection.items.1.contents.0"),
+                t("page.featuresSection.items.1.contents.1"),
+                t("page.featuresSection.items.1.contents.2"),
+                t("page.featuresSection.items.1.contents.3"),
+            ],
+            img: featureImg2,
+        },
+        {
+            tabId: "tab-3",
+            tabName: t("page.featuresSection.items.2.tabName"),
+            title: t("page.featuresSection.items.2.title"),
+            subTitle: t("page.featuresSection.items.2.subTitle"),
+            contents: [
+                t("page.featuresSection.items.2.contents.0"),
+                t("page.featuresSection.items.2.contents.1"),
+                t("page.featuresSection.items.2.contents.2"),
+            ],
+            img: featureImg3,
+        },
+        {
+            tabId: "tab-4",
+            tabName: t("page.featuresSection.items.3.tabName"),
+            title: t("page.featuresSection.items.3.title"),
+            subTitle: t("page.featuresSection.items.3.subTitle"),
+            contents: [
+                t("page.featuresSection.items.3.contents.0"),
+                t("page.featuresSection.items.3.contents.1"),
+                t("page.featuresSection.items.3.contents.2"),
+            ],
+            img: featureImg4,
+        },
+    ];
+
     return (
-        <section id="features" class="features section-bg">
-            <div class="container" data-aos="fade-up">
-                <ul class="nav nav-tabs row  g-2 d-flex">
+        <section id="features" className="features section-bg">
+            <div className="container" data-aos="fade-up">
+                <ul className="nav nav-tabs row g-2 d-flex">
                     {featuresData.map((item, index) => (
-                        <li class="nav-item col-3" key={index}>
-                            <a class={`nav-link ${index === 0 && 'active show'}`} data-bs-toggle="tab" data-bs-target={`#tab-${index + 1}`}>
+                        <li className="nav-item col-3" key={index}>
+                            <a
+                                className={`nav-link ${index === 0 && "active show"}`}
+                                data-bs-toggle="tab"
+                                data-bs-target={`#tab-${index + 1}`}
+                            >
                                 <h4>{item.tabName}</h4>
                             </a>
                         </li>
                     ))}
                 </ul>
 
-                <div class="tab-content">
+                <div className="tab-content">
                     {featuresData.map((item, index) => (
-                        <div class={`tab-pane ${index === 0 && 'active show'}`} id={`tab-${index + 1}`} key={index}>
-                            <div class="row">
-                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
-                                data-aos="fade-up" data-aos-delay="100">
-                                <h3>{item.title}</h3>
-                                <p class="fst-italic">{item.subTitle}</p>
-                                <ul>
-                                    {item.contents.map((content, contentIndex) => (
-                                        <li key={index + contentIndex}><i class="bi bi-check2-all"></i>{content}</li>
-                                    ))}
-                                </ul>
-                            </div>
-                            <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                                <img src={item.img} alt="" class="img-fluid" />
-                            </div>
+                        <div
+                            className={`tab-pane ${index === 0 && "active show"}`}
+                            id={`tab-${index + 1}`}
+                            key={index}
+                        >
+                            <div className="row">
+                                <div
+                                    className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                                    data-aos="fade-up"
+                                    data-aos-delay="100"
+                                >
+                                    <h3>{item.title}</h3>
+                                    <p className="fst-italic">{item.subTitle}</p>
+                                    <ul>
+                                        {item.contents.map((content, contentIndex) => (
+                                            <li key={contentIndex}>
+                                                <i className="bi bi-check2-all"></i>
+                                                {content}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div
+                                    className="col-lg-6 order-1 order-lg-2 text-center"
+                                    data-aos="fade-up"
+                                    data-aos-delay="200"
+                                >
+                                    <img src={item.img} alt="" className="img-fluid" />
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};

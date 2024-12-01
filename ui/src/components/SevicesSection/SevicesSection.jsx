@@ -1,56 +1,58 @@
-import { ServiceItem } from "./ServiceItem/ServiceItem"
-
-const serviceItemsData = [
-    {
-        icon: <i class='fa-solid fa-mountain-city'></i>,
-        title: 'Nesciunt Mete',
-        desc: 'Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.'
-    },
-    {
-        icon: <i class='fa-solid fa-arrow-up-from-ground-water'></i>,
-        title: 'Eosle Commodi',
-        desc: 'Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.'
-    },
-    {
-        icon: <i class='fa-solid fa-compass-drafting'></i>,
-        title: 'Ledo Markt',
-        desc: 'Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.'
-    },
-    {
-        icon: <i class='fa-solid fa-trowel-bricks'></i>,
-        title: 'Asperiores Commodit',
-        desc: 'Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.'
-    },
-    {
-        icon: <i class='fa-solid fa-helmet-safety'></i>,
-        title: 'Velit Doloremque',
-        desc: 'Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.',
-    },
-    {
-        icon: <i class='fa-solid fa-arrow-up-from-ground-water'></i>,
-        title: 'Dolori Architecto',
-        desc: 'Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.'
-    },
-]
+import { ServiceItem } from "./ServiceItem/ServiceItem";
+import { useTranslation } from "react-i18next";
 
 export const ServicesSection = () => {
+    const { t } = useTranslation();  
+
+    const serviceItemsData = [
+        {
+            icon: <i className="fa-solid fa-mountain-city"></i>,
+            title: t("page.servicesSection.items.0.title"),  
+            desc: t("page.servicesSection.items.0.desc")  
+        },
+        {
+            icon: <i className="fa-solid fa-arrow-up-from-ground-water"></i>,
+            title: t("page.servicesSection.items.1.title"),
+            desc: t("page.servicesSection.items.1.desc")
+        },
+        {
+            icon: <i className="fa-solid fa-compass-drafting"></i>,
+            title: t("page.servicesSection.items.2.title"),
+            desc: t("page.servicesSection.items.2.desc")
+        },
+        {
+            icon: <i className="fa-solid fa-trowel-bricks"></i>,
+            title: t("page.servicesSection.items.3.title"),
+            desc: t("page.servicesSection.items.3.desc")
+        },
+        {
+            icon: <i className="fa-solid fa-helmet-safety"></i>,
+            title: t("page.servicesSection.items.4.title"),
+            desc: t("page.servicesSection.items.4.desc")
+        },
+        {
+            icon: <i className="fa-solid fa-arrow-up-from-ground-water"></i>,
+            title: t("page.servicesSection.items.5.title"),
+            desc: t("page.servicesSection.items.5.desc")
+        }
+    ];
+
     return (
-        <section id="services" class="services section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                <h2>Services</h2>
-                <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
-                    quam</p>
+        <section id="services" className="services section-bg">
+            <div className="container" data-aos="fade-up">
+                <div className="section-header">
+                    <h2>{t("page.servicesSection.heading")}</h2>
+                    <p>{t("page.servicesSection.subHeading")}</p>  
                 </div>
 
-                <div class="row gy-4">
+                <div className="row gy-4">
                     {serviceItemsData.map((item, index) => (
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <ServiceItem item={item} key={index}/>
+                        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" key={index}>
+                            <ServiceItem item={item} />
                         </div>
                     ))}
                 </div>
             </div>
         </section>
-    )
+    );
 }
