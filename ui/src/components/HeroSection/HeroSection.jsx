@@ -4,15 +4,17 @@ import heroCarousel2 from '../../assets/image/hero-carousel-2.jpg';
 import heroCarousel3 from '../../assets/image/hero-carousel-3.jpg';
 import heroCarousel4 from '../../assets/image/hero-carousel-4.jpg';
 import heroCarousel5 from '../../assets/image/hero-carousel-5.jpg';
+import { useTranslation } from "react-i18next";
 
 export const HeroSection = () => {
+    const {t} = useTranslation();
     return (
         <section id="hero" class="hero">
             <div class="info d-flex align-items-center">
                 <div class="container">
                     <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h2 data-aos="fade-down">Welcome to <span>UpConstruction</span></h2>
+                        <h2 data-aos="fade-down">{t("page.hero-section.tilte.welcome")}<span>UpConstruction</span></h2>
                         <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
