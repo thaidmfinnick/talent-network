@@ -1,5 +1,22 @@
 {
-    "page.header.logo.title": "DuHocDuc",
+    "page.header.logo.title": "deDuHocDuc",
+    "page.header.nav.home": "deHome",
+    "page.header.nav.about": "deAbout",
+    "page.header.nav.services": "deServices",
+    "page.header.nav.projects": "deProjects",
+    "page.header.nav.blog": "deBlog",
+    "page.header.nav.contact": "deContact",
+    "page.header.nav.dropdown.title": "deDropdown",
+    "page.header.nav.dropdown.item1": "deDropdown 1",
+    "page.header.nav.dropdown.item2": "deDropdown 2",
+    "page.header.nav.dropdown.item3": "deDropdown 3",
+    "page.header.nav.dropdown.item4": "deDropdown 4",
+    "page.header.nav.dropdown.deepDropdown.title": "deDeep Dropdown",
+    "page.header.nav.dropdown.deepDropdown.item1": "deDeep Dropdown 1",
+    "page.header.nav.dropdown.deepDropdown.item2": "deDeep Dropdown 2",
+    "page.header.nav.dropdown.deepDropdown.item3": "deDeep Dropdown 3",
+    "page.header.nav.dropdown.deepDropdown.item4": "deDeep Dropdown 4",
+    "page.header.nav.dropdown.deepDropdown.item5": "deDeep Dropdown 5",
     "page.hero-section.tilte.welcome": "Willkommen bei",
     "page.hero-section.tilte.construction": "UpConstruction",
     "page.hero-section.tilte.lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut aliquip ex ea commodo consequat.",
@@ -14,127 +31,101 @@
     "page.constructionsSection.items.3.desc": "Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.",
     "page.constructionsSection.items.4.title": "Expedita voluptas ut ut nesciunt",
     "page.constructionsSection.items.4.desc": "Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.",
-    "page.servicesSection.heading": "Unsere Dienstleistungen",
-    "page.servicesSection.subHeading": "Wir bieten qualitativ hochwertige Dienstleistungen, um all Ihre Bedürfnisse zu erfüllen.",
-    "page.servicesSection.items": [
-        {
-            "title": "Nesciunt Mete",
-            "desc": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur."
-        },
-        {
-            "title": "Eosle Commodi",
-            "desc": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem."
-        },
-        {
-            "title": "Ledo Markt",
-            "desc": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti."
-        },
-        {
-            "title": "Asperiores Commodit",
-            "desc": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque."
-        },
-        {
-            "title": "Velit Doloremque",
-            "desc": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore."
-        },
-        {
-            "title": "Dolori Architecto",
-            "desc": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim."
-        }
-    ],
-    "altServices": {
-        "heading": "Lllllorem Ipsum",
-        "description": "vvvvVoluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-        "items": [
-            {
-                "title": "Llllllorem Ipsum",
-                "desc": "Vvvvoluptatum deleniti atque corrupti quos dolores."
-            },
-            {
-                "title": "Nnnnnemo Enim",
-                "desc": "aaaAt vero eos et accusamus et iusto odio dignissimos."
-            },
-            {
-                "title": "Ddddine Pad",
-                "desc": "Eeeexplicabo est voluptatum asperiores consequatur magnam."
-            },
-            {
-                "title": "Tttttride Clov",
-                "desc": "Eeeest voluptatem labore deleniti quis a delectus."
-            }
-        ]
-    },
-    "page": {
-    "featuresSection": {
-      "items": [
-        {
-          "tabName": "Mmmmmodisit",
-          "title": "Vvvvvoluptatem dignissimos provident",
-          "subTitle": "Lllllorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "uuuuUllamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "dddDuis aute irure dolor in reprehenderit in voluptate velit.",
-            "Uuuuullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur."
-          ]
-        },
-        {
-          "tabName": "pppPraesenti",
-          "title": "Nnnneque exercitationem debitis",
-          "subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "deDuis aute irure dolor in reprehenderit in voluptate velit.",
-            "deProvident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.",
-            "deUllamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur."
-          ]
-        },
-        {
-          "tabName": "deExplica",
-          "title": "deVoluptatibus commodi accusamu",
-          "subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "deDuis aute irure dolor in reprehenderit in voluptate velit.",
-            "deProvident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed."
-          ]
-        },
-        {
-          "tabName": "deNostrum",
-          "title": "deOmnis fugiat ea explicabo sunt",
-          "subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "deDuis aute irure dolor in reprehenderit in voluptate velit.",
-            "deUllamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur."
-          ]
-        }
-      ]
-    }
-  },
-  "page": {
-    "recentPostsSection": {
-      "heading": "Neueste Blog-Beiträge",
-      "subHeading": "In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu",
-      "items": [
-        {
-          "date": "12. Dezember",
-          "title": "Eum ad dolor et. Autem aut fugiat debitis",
-          "person": "Julia Parker",
-          "folder": "Politik"
-        },
-        {
-          "date": "17. Juli",
-          "title": "Et repellendus molestiae qui est sed omnis",
-          "person": "Mario Douglas",
-          "folder": "Sport"
-        },
-        {
-          "date": "5. September",
-          "title": "Quia assumenda est et veritati tirana ploder",
-          "person": "Lisa Hunter",
-          "folder": "Wirtschaft"
-        }
-      ]
-    }
-  }
+    "page.servicesSection.heading": "uuUnsere Dienstleistungen",
+    "page.servicesSection.subHeading": "wWir bieten qualitativ hochwertige Dienstleistungen, um all Ihre Bedürfnisse zu erfüllen.",
+    "page.servicesSection.items.0.title": "deNesciunt Mete",
+    "page.servicesSection.items.0.desc": "deProvident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+    "page.servicesSection.items.1.title": "deEosle Commodi",
+    "page.servicesSection.items.1.desc": "deUt autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.",
+    "page.servicesSection.items.2.title": "deLedo Markt",
+    "page.servicesSection.items.2.desc": "deUt excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
+    "page.servicesSection.items.3.title": "deAsperiores Commodit",
+    "page.servicesSection.items.3.desc": "deNon et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
+    "page.servicesSection.items.4.title": "deVelit Doloremque",
+    "page.servicesSection.items.4.desc": "deCumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.",
+    "page.servicesSection.items.5.title": "deDolori Architecto",
+    "page.servicesSection.items.5.desc": "Hdeic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.",
+    "altServices.heading": "deLorem Ipsum",
+    "altServices.description": "deVoluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "altServices.items.0.title": "deLorem Ipsum",
+    "altServices.items.0.desc": "deVoluptatum deleniti atque corrupti quos dolores.",
+    "altServices.items.1.title": "deNemo Enim",
+    "altServices.items.1.desc": "deAt vero eos et accusamus et iusto odio dignissimos.",
+    "altServices.items.2.title": "deDine Pad",
+    "altServices.items.2.desc": "deExplicabo est voluptatum asperiores consequatur magnam.",
+    "altServices.items.3.title": "deTride Clov",
+    "altServices.items.3.desc": "deEst voluptatem labore deleniti quis a delectus.",
+    "page.featuresSection.items.0.tabName": "deModisit",
+    "page.featuresSection.items.0.title": "deVoluptatem dignissimos provident",
+    "page.featuresSection.items.0.subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.0.contents.0": "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.0.contents.1": "deDuis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.0.contents.2": "deUllamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+    "page.featuresSection.items.1.tabName": "dePraesenti",
+    "page.featuresSection.items.1.title": "deNeque exercitationem debitis",
+    "page.featuresSection.items.1.subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.1.contents.0": "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.1.contents.1": "deDuis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.1.contents.2": "deProvident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.",
+    "page.featuresSection.items.1.contents.3": "deUllamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+    "page.featuresSection.items.2.tabName": "deExplica",
+    "page.featuresSection.items.2.title": "deVoluptatibus commodi accusamu",
+    "page.featuresSection.items.2.subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.2.contents.0": "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.2.contents.1": "deDuis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.2.contents.2": "deProvident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.",
+    "page.featuresSection.items.3.tabName": "deNostrum",
+    "page.featuresSection.items.3.title": "deOmnis fugiat ea explicabo sunt",
+    "page.featuresSection.items.3.subTitle": "deLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.3.contents.0": "deUllamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.3.contents.1": "deDuis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.3.contents.2": "deUllamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+    "page.recentPostsSection.heading": "deRecent Blog Posts",
+    "page.recentPostsSection.subHeading": "deIn commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu",
+    "page.recentPostsSection.items.0.date": "deDecember 12",
+    "page.recentPostsSection.items.0.title": "deEum ad dolor et. Autem aut fugiat debitis",
+    "page.recentPostsSection.items.0.person": "deJulia Parker",
+    "page.recentPostsSection.items.0.folder": "dePolitics",
+    "page.recentPostsSection.items.1.date": "deJuly 17",
+    "page.recentPostsSection.items.1.title": "deEt repellendus molestiae qui est sed omnis",
+    "page.recentPostsSection.items.1.person": "deMario Douglas",
+    "page.recentPostsSection.items.1.folder": "deSports",
+    "page.recentPostsSection.items.2.date": "deSeptember 05",
+    "page.recentPostsSection.items.2.title": "deQuia assumenda est et veritati tirana ploder",
+    "page.recentPostsSection.items.2.person": "deLisa Hunter",
+    "page.recentPostsSection.items.2.folder": "deEconomics",
+    "page.footer.title": "deUpConstruction",
+    "page.footer.address.line1": "deA108 Adam Street",
+    "page.footer.address.line2": "deNY 535022, USA",
+    "page.footer.contact.phone.label": "dePhone",
+    "page.footer.contact.phone.value": "+1 5589 55488 55",
+    "page.footer.contact.email.label": "deEmail",
+    "page.footer.contact.email.value": "deinfo@example.com",
+    "page.footer.usefulLinks.title": "deUseful Links",
+    "page.footer.usefulLinks.links.home": "deHome",
+    "page.footer.usefulLinks.links.about": "deAbout us",
+    "page.footer.usefulLinks.links.services": "deServices",
+    "page.footer.usefulLinks.links.terms": "deTerms of service",
+    "page.footer.usefulLinks.links.privacy": "dePrivacy policy",
+    "page.footer.ourServices.title": "deOur Services",
+    "page.footer.ourServices.links.webDesign": "deWeb Design",
+    "page.footer.ourServices.links.webDevelopment": "deWeb Development",
+    "page.footer.ourServices.links.productManagement": "deProduct Management",
+    "page.footer.ourServices.links.marketing": "deMarketing",
+    "page.footer.ourServices.links.graphicDesign": "deGraphic Design",
+    "page.footer.hicSolutasetp.title": "deHic solutasetp",
+    "page.footer.hicSolutasetp.links.molestiae": "deMolestiae accusamus iure",
+    "page.footer.hicSolutasetp.links.excepturi": "deExcepturi dignissimos",
+    "page.footer.hicSolutasetp.links.suscipit": "deSuscipit distinctio",
+    "page.footer.hicSolutasetp.links.dilecta": "Dedilecta",
+    "page.footer.hicSolutasetp.links.sitQuas": "deSit quas consectetur",
+    "page.footer.nobisIllum.title": "deNobis illum",
+    "page.footer.nobisIllum.links.ipsam": "deIpsam",
+    "page.footer.nobisIllum.links.laudantium": "deLaudantium dolorum",
+    "page.footer.nobisIllum.links.dinera": "deDinera",
+    "page.footer.nobisIllum.links.trodelas": "deTrodelas",
+    "page.footer.nobisIllum.links.flexo": "deFlexo",
+    "page.footer.copyright": "©de Copyright UpConstruction All Rights Reserved",
+    "page.footer.credits": "deDesigned by",
+    "page.footer.distributedBy": "deDistributed by"
 }

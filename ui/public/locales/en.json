@@ -1,5 +1,22 @@
 {
     "page.header.logo.title": "DuHocDuc",
+    "page.header.nav.home": "Home",
+    "page.header.nav.about": "About",
+    "page.header.nav.services": "Services",
+    "page.header.nav.projects": "Projects",
+    "page.header.nav.blog": "Blog",
+    "page.header.nav.contact": "Contact",
+    "page.header.nav.dropdown.title": "Dropdown",
+    "page.header.nav.dropdown.item1": "Dropdown 1",
+    "page.header.nav.dropdown.item2": "Dropdown 2",
+    "page.header.nav.dropdown.item3": "Dropdown 3",
+    "page.header.nav.dropdown.item4": "Dropdown 4",
+    "page.header.nav.dropdown.deepDropdown.title": "Deep Dropdown",
+    "page.header.nav.dropdown.deepDropdown.item1": "Deep Dropdown 1",
+    "page.header.nav.dropdown.deepDropdown.item2": "Deep Dropdown 2",
+    "page.header.nav.dropdown.deepDropdown.item3": "Deep Dropdown 3",
+    "page.header.nav.dropdown.deepDropdown.item4": "Deep Dropdown 4",
+    "page.header.nav.dropdown.deepDropdown.item5": "Deep Dropdown 5",
     "page.hero-section.tilte.welcome": "welcome to",
     "page.hero-section.tilte.construction": "UpConstruction",
     "page.hero-section.tilte.lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut aliquip ex ea commodo consequat.",
@@ -16,128 +33,99 @@
     "page.constructionsSection.items.4.desc": "Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.",
     "page.servicesSection.heading": "Our Services",
     "page.servicesSection.subHeading": "We provide top quality services to meet all your needs.",
-    "page.servicesSection.items": [
-        {
-            "title": "Nesciunt Mete",
-            "desc": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur."
-        },
-        {
-            "title": "Eosle Commodi",
-            "desc": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem."
-        },
-        {
-            "title": "Ledo Markt",
-            "desc": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti."
-        },
-        {
-            "title": "Asperiores Commodit",
-            "desc": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque."
-        },
-        {
-            "title": "Velit Doloremque",
-            "desc": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore."
-        },
-        {
-            "title": "Dolori Architecto",
-            "desc": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim."
-        }
-    ],
-    "altServices": {
-        "heading": "Lorem Ipsum",
-        "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-        "items": [
-            {
-                "title": "Lorem Ipsum",
-                "desc": "Voluptatum deleniti atque corrupti quos dolores."
-            },
-            {
-                "title": "Nemo Enim",
-                "desc": "At vero eos et accusamus et iusto odio dignissimos."
-            },
-            {
-                "title": "Dine Pad",
-                "desc": "Explicabo est voluptatum asperiores consequatur magnam."
-            },
-            {
-                "title": "Tride Clov",
-                "desc": "Est voluptatem labore deleniti quis a delectus."
-            }
-        ]
-    },
-    "page": {
-    "featuresSection": {
-      "items": [
-        {
-          "tabName": "Modisit",
-          "title": "Voluptatem dignissimos provident",
-          "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit.",
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur."
-          ]
-        },
-        {
-          "tabName": "Praesenti",
-          "title": "Neque exercitationem debitis",
-          "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit.",
-            "Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.",
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur."
-          ]
-        },
-        {
-          "tabName": "Explica",
-          "title": "Voluptatibus commodi accusamu",
-          "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit.",
-            "Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed."
-          ]
-        },
-        {
-          "tabName": "Nostrum",
-          "title": "Omnis fugiat ea explicabo sunt",
-          "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "contents": [
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit.",
-            "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur."
-          ]
-        }
-      ]
-    }
-  },
-  
-    "page": {
-      "recentPostsSection": {
-        "heading": "Recent Blog Posts",
-        "subHeading": "In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu",
-        "items": [
-          {
-            "date": "December 12",
-            "title": "Eum ad dolor et. Autem aut fugiat debitis",
-            "person": "Julia Parker",
-            "folder": "Politics"
-          },
-          {
-            "date": "July 17",
-            "title": "Et repellendus molestiae qui est sed omnis",
-            "person": "Mario Douglas",
-            "folder": "Sports"
-          },
-          {
-            "date": "September 05",
-            "title": "Quia assumenda est et veritati tirana ploder",
-            "person": "Lisa Hunter",
-            "folder": "Economics"
-          }
-        ]
-      }
-    }
-  
-  
+    "page.servicesSection.items.0.title": "Nesciunt Mete",
+    "page.servicesSection.items.0.desc": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+    "page.servicesSection.items.1.title": "Eosle Commodi",
+    "page.servicesSection.items.1.desc": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.",
+    "page.servicesSection.items.2.title": "Ledo Markt",
+    "page.servicesSection.items.2.desc": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
+    "page.servicesSection.items.3.title": "Asperiores Commodit",
+    "page.servicesSection.items.3.desc": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
+    "page.servicesSection.items.4.title": "Velit Doloremque",
+    "page.servicesSection.items.4.desc": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.",
+    "page.servicesSection.items.5.title": "Dolori Architecto",
+    "page.servicesSection.items.5.desc": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.",
+    "altServices.heading": "Lorem Ipsum",
+    "altServices.description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "altServices.items.0.title": "Lorem Ipsum",
+    "altServices.items.0.desc": "Voluptatum deleniti atque corrupti quos dolores.",
+    "altServices.items.1.title": "Nemo Enim",
+    "altServices.items.1.desc": "At vero eos et accusamus et iusto odio dignissimos.",
+    "altServices.items.2.title": "Dine Pad",
+    "altServices.items.2.desc": "Explicabo est voluptatum asperiores consequatur magnam.",
+    "altServices.items.3.title": "Tride Clov",
+    "altServices.items.3.desc": "Est voluptatem labore deleniti quis a delectus.",
+    "page.featuresSection.items.0.tabName": "Modisit",
+    "page.featuresSection.items.0.title": "Voluptatem dignissimos provident",
+    "page.featuresSection.items.0.subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.0.contents.0": "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.0.contents.1": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.0.contents.2": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+    "page.featuresSection.items.1.tabName": "Praesenti",
+    "page.featuresSection.items.1.title": "Neque exercitationem debitis",
+    "page.featuresSection.items.1.subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.1.contents.0": "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.1.contents.1": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.1.contents.2": "Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.",
+    "page.featuresSection.items.1.contents.3": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+    "page.featuresSection.items.2.tabName": "Explica",
+    "page.featuresSection.items.2.title": "Voluptatibus commodi accusamu",
+    "page.featuresSection.items.2.subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.2.contents.0": "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.2.contents.1": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.2.contents.2": "Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.",
+    "page.featuresSection.items.3.tabName": "Nostrum",
+    "page.featuresSection.items.3.title": "Omnis fugiat ea explicabo sunt",
+    "page.featuresSection.items.3.subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "page.featuresSection.items.3.contents.0": "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "page.featuresSection.items.3.contents.1": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+    "page.featuresSection.items.3.contents.2": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.",
+    "page.recentPostsSection.heading": "Recent Blog Posts",
+    "page.recentPostsSection.subHeading": "In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu",
+    "page.recentPostsSection.items.0.date": "December 12",
+    "page.recentPostsSection.items.0.title": "Eum ad dolor et. Autem aut fugiat debitis",
+    "page.recentPostsSection.items.0.person": "Julia Parker",
+    "page.recentPostsSection.items.0.folder": "Politics",
+    "page.recentPostsSection.items.1.date": "July 17",
+    "page.recentPostsSection.items.1.title": "Et repellendus molestiae qui est sed omnis",
+    "page.recentPostsSection.items.1.person": "Mario Douglas",
+    "page.recentPostsSection.items.1.folder": "Sports",
+    "page.recentPostsSection.items.2.date": "September 05",
+    "page.recentPostsSection.items.2.title": "Quia assumenda est et veritati tirana ploder",
+    "page.recentPostsSection.items.2.person": "Lisa Hunter",
+    "page.recentPostsSection.items.2.folder": "Economics",
+    "page.footer.title": "UpConstruction",
+    "page.footer.address.line1": "A108 Adam Street",
+    "page.footer.address.line2": "NY 535022, USA",
+    "page.footer.contact.phone.label": "Phone",
+    "page.footer.contact.phone.value": "+1 5589 55488 55",
+    "page.footer.contact.email.label": "Email",
+    "page.footer.contact.email.value": "info@example.com",
+    "page.footer.usefulLinks.title": "Useful Links",
+    "page.footer.usefulLinks.links.home": "Home",
+    "page.footer.usefulLinks.links.about": "About us",
+    "page.footer.usefulLinks.links.services": "Services",
+    "page.footer.usefulLinks.links.terms": "Terms of service",
+    "page.footer.usefulLinks.links.privacy": "Privacy policy",
+    "page.footer.ourServices.title": "Our Services",
+    "page.footer.ourServices.links.webDesign": "Web Design",
+    "page.footer.ourServices.links.webDevelopment": "Web Development",
+    "page.footer.ourServices.links.productManagement": "Product Management",
+    "page.footer.ourServices.links.marketing": "Marketing",
+    "page.footer.ourServices.links.graphicDesign": "Graphic Design",
+    "page.footer.hicSolutasetp.title": "Hic solutasetp",
+    "page.footer.hicSolutasetp.links.molestiae": "Molestiae accusamus iure",
+    "page.footer.hicSolutasetp.links.excepturi": "Excepturi dignissimos",
+    "page.footer.hicSolutasetp.links.suscipit": "Suscipit distinctio",
+    "page.footer.hicSolutasetp.links.dilecta": "Dilecta",
+    "page.footer.hicSolutasetp.links.sitQuas": "Sit quas consectetur",
+    "page.footer.nobisIllum.title": "Nobis illum",
+    "page.footer.nobisIllum.links.ipsam": "Ipsam",
+    "page.footer.nobisIllum.links.laudantium": "Laudantium dolorum",
+    "page.footer.nobisIllum.links.dinera": "Dinera",
+    "page.footer.nobisIllum.links.trodelas": "Trodelas",
+    "page.footer.nobisIllum.links.flexo": "Flexo",
+    "page.footer.copyright": "© Copyright UpConstruction All Rights Reserved",
+    "page.footer.credits": "Designed by",
+    "page.footer.distributedBy": "Distributed by"
 }

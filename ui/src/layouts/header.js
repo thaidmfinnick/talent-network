@@ -6,6 +6,7 @@ import { changeLanguage } from "i18next";
 
 export const Header = () => {
   const [scrollY, setScrollY] = useState(0);
+
   const [localLanguage,setLocalLanguage] = useState("");
   const { t, i18n } = useTranslation();
   // const changeLanguage = (lng) => {
@@ -20,10 +21,11 @@ export const Header = () => {
   //   setLocalLanguage(getLocalLanguage());
   // },[])
   useEffect(() => {
-    window.addEventListener("scroll", () => setScrollY(window.scrollY));
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", () => setScrollY(window.scrollY));
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const languages = [{
@@ -36,6 +38,8 @@ export const Header = () => {
   return (
     <>
       {/* ======= Header ======= */}
+
+      <header id="header" className="header d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-end icon-header">
           <nav id="navbar" className="navbar">
             <ul className="icon-navbar">
@@ -86,15 +90,13 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-      <header id="header" className="header align-items-center">
-
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center">
             {/* Uncomment the line below if you also wish to use an image logo */}
             {/* <img src="assets/img/logo.png" alt=""> */}
             <h1>
-              {t("page.header.logo.title")}
-              <span>.</span>
+              {t("page.header.logo.title")}<span>.</span>
+
             </h1>
           </a>
           <i className="mobile-nav-toggle mobile-nav-show bi bi-list" />
@@ -103,66 +105,72 @@ export const Header = () => {
             <ul>
               <li>
                 <a href="index.html" className="active">
-                  Home
+
+                  {t("page.header.nav.home")}
                 </a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="about.html">{t("page.header.nav.about")}</a>
               </li>
               <li>
-                <a href="services.html">Services</a>
+                <a href="services.html">{t("page.header.nav.services")}</a>
               </li>
               <li>
-                <a href="projects.html">Projects</a>
+                <a href="projects.html">{t("page.header.nav.projects")}</a>
               </li>
               <li>
-                <a href="blog.html">Blog</a>
+                <a href="blog.html">{t("page.header.nav.blog")}</a>
               </li>
               <li className="dropdown">
                 <a href="#">
-                  <span>Dropdown</span>{" "}
+                  <span>{t("page.header.nav.dropdown.title")}</span>{" "}
                   <i className="bi bi-chevron-down dropdown-indicator" />
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Dropdown 1</a>
+
+                    <a href="#">{t("page.header.nav.dropdown.item1")}</a>
                   </li>
                   <li className="dropdown">
                     <a href="#">
-                      <span>Deep Dropdown</span>{" "}
+                      <span>{t("page.header.nav.dropdown.deepDropdown.title")}</span>{" "}
                       <i className="bi bi-chevron-down dropdown-indicator" />
                     </a>
                     <ul>
                       <li>
-                        <a href="#">Deep Dropdown 1</a>
+
+                        <a href="#">{t("page.header.nav.dropdown.deepDropdown.item1")}</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 2</a>
+                        <a href="#">{t("page.header.nav.dropdown.deepDropdown.item2")}</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 3</a>
+                        <a href="#">{t("page.header.nav.dropdown.deepDropdown.item3")}</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 4</a>
+                        <a href="#">{t("page.header.nav.dropdown.deepDropdown.item4")}</a>
                       </li>
                       <li>
-                        <a href="#">Deep Dropdown 5</a>
+                        <a href="#">{t("page.header.nav.dropdown.deepDropdown.item5")}</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Dropdown 2</a>
+
+                    <a href="#">{t("page.header.nav.dropdown.item2")}</a>
                   </li>
                   <li>
-                    <a href="#">Dropdown 3</a>
+                    <a href="#">{t("page.header.nav.dropdown.item3")}</a>
                   </li>
                   <li>
-                    <a href="#">Dropdown 4</a>
+                    <a href="#">{t("page.header.nav.dropdown.item4")}</a>
+
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html">{t("page.header.nav.contact")}</a>
+
               </li>
             </ul>
           </nav>
