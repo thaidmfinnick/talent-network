@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
+  --color-primary: #0857a3;
   --color-secondary: #52565e;
 }
 
@@ -255,11 +255,26 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.icon-header{
+  z-index: 1000;
+  position: absolute;
+top: 0;
+left: 0;
+right: 0  ;
+}
+.icon-navbar li{
+padding: 10px 0px 10px 10px !important;
+}
+.social-link-icon {
+  }
+.social-link-icon a{
+  margin: 10px;
+}
 .header {
   z-index: 997;
   position: absolute;
-  padding: 30px 0;
-  top: 0;
+  padding: 0;
+  top: 30px;
   left: 0;
   right: 0;
 }
@@ -787,7 +802,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: var(--color-primary);
+  background: #d6d7d7;
 }
 
 .services .service-item:hover h3 {
@@ -2291,7 +2306,6 @@ section {
   padding: 0;
   color: var(--color-secondary);
 }
-
 .blog .post-author .social-links {
   margin: 0 10px 10px 0;
 }
