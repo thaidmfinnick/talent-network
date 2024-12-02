@@ -260,10 +260,11 @@ section {
   position: absolute;
 top: 0;
 left: 0;
-right: 0  ;
+right: 0 ;
 }
 .icon-navbar li{
 padding: 10px 0px 10px 10px !important;
+cursor: pointer;
 }
 .social-link-icon {
   }

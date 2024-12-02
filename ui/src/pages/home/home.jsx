@@ -27,7 +27,7 @@ const Home = () => {
       <ServicesSection />
       <AltServicesSection />
       <FeaturesSection />
-      <RecentPostsSection />
+      {/* <RecentPostsSection /> */}
     </>
   );
 };
