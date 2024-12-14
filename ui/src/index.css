@@ -1098,6 +1098,7 @@ section {
   height: 100%;
   border: 0;
   border-bottom: 4px solid #e2e4e6;
+  text-align: center;
 }
 
 .features .nav-link i {
@@ -1114,6 +1115,10 @@ section {
 @media (max-width: 575px) {
   .features .nav-link h4 {
     font-size: 16px;
+  }
+
+  .features .col-3 {
+    width: 50%;
   }
 }
 

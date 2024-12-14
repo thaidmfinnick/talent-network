@@ -9,7 +9,6 @@ export const Header = () => {
 
   const [localLanguage, setLocalLanguage] = useState("");
   const { t, i18n } = useTranslation();
-  const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
   const [activeItem, setActiveItem] = useState('home');
   const [dropDown1Active, setDropDown1Active] = useState(false);
   const [dropDown2Active, setDropDown2Active] = useState(false);
