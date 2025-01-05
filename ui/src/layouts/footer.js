@@ -74,26 +74,7 @@ export const Footer = () => {
                 </ul>
               </div>
               {/* End footer links column*/}
-              <div className="col-lg-2 col-md-3 footer-links">
-                <h4>{t("page.footer.ourServices.title")}</h4>
-                <ul>
-                  <li>
-                    <a href="#">{t("page.footer.ourServices.links.webDesign")}</a>
-                  </li>
-                  <li>
-                    <a href="#">{t("page.footer.ourServices.links.webDevelopment")}</a>
-                  </li>
-                  <li>
-                    <a href="#">{t("page.footer.ourServices.links.productManagement")}</a>
-                  </li>
-                  <li>
-                    <a href="#">{t("page.footer.ourServices.links.marketing")}</a>
-                  </li>
-                  <li>
-                    <a href="#">{t("page.footer.ourServices.links.graphicDesign")}</a>
-                  </li>
-                </ul>
-              </div>
+             
               {/* End footer links column*/}
               <div className="col-lg-2 col-md-3 footer-links">
                 <h4>{t("page.footer.hicSolutasetp.title")}</h4>
