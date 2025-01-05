@@ -4,6 +4,7 @@ import heroCarousel2 from '../../assets/image/hero-carousel-2.jpg';
 import heroCarousel3 from '../../assets/image/hero-carousel-3.jpg';
 import heroCarousel4 from '../../assets/image/hero-carousel-4.jpg';
 import heroCarousel5 from '../../assets/image/hero-carousel-5.jpg';
+import heroCarousel6 from '../../assets/image/hero-carousel-6.jpg';
 import { useTranslation } from "react-i18next";
 
 export const HeroSection = () => {
@@ -28,6 +29,7 @@ export const HeroSection = () => {
                 <div class="carousel-item" style={{backgroundImage: `url(${heroCarousel3})`}}></div>
                 <div class="carousel-item" style={{backgroundImage: `url(${heroCarousel4})`}}></div>
                 <div class="carousel-item" style={{backgroundImage: `url(${heroCarousel5})`}}></div>
+                <div class="carousel-item" style={{backgroundImage: `url(${heroCarousel6})`}}></div>
 
                 <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
                     <i class="carousel-control-prev-icon bi bi-chevron-left"></i>

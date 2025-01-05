@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import "./header.scss";
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
+import logo from "../assets/image/logo_main.png";
 
 export const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -141,10 +142,9 @@ export const Header = () => {
           <a href="index.html" className="logo d-flex align-items-center">
             {/* Uncomment the line below if you also wish to use an image logo */}
             {/* <img src="assets/img/logo.png" alt=""> */}
-            <h1>
-              {t("page.header.logo.title")}
-              <span>.</span>
-            </h1>
+
+            <img src={logo} alt="anh_logo" width="70" height="70"  />
+
           </a>
           <i
             className="mobile-nav-toggle mobile-nav-show bi bi-list"
