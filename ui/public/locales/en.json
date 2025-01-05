@@ -120,5 +120,16 @@
     "page.footer.nobisIllum.links.flexo": "Flexo",
     "page.footer.copyright": "©Copyright By TALENT NETWORK",
     "page.footer.credits": "Designed by",
-    "page.footer.distributedBy": "Distributed by"
+    "page.footer.distributedBy": "Distributed by",
+    "page.contact.title": "Contact us today",
+    "page.contact.subTitle": "Do you have a question? Please let us know! We will endeavor to process your request as quickly as possible and will contact you as soon as possible.",
+    "page.contact.address": "Our address",
+    "page.contact.email": "Email us",
+    "page.contact.phone": "Call us",
+    "page.contact.form.name": "Your name",
+    "page.contact.form.email": "Your email",
+    "page.contact.form.message": "Your message",
+    "page.contact.form.subject": "Your subject",
+    "page.contact.form.send": "Send message",
+    "page.contact.form.success": "Your message has been sent successfully!"
 }

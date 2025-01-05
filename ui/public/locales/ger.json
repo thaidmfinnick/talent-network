@@ -20,8 +20,10 @@
     "page.hero-section.tilte.construction": " DuHocDuc",
     "page.hero-section.tilte.lorem": "Der Weg zu einem Hochschul- oder Berufsbildungsstudium in Europa, insbesondere in Ländern wie Deutschland, Niederlande und der Schweiz, die über erstklassige Bildungssysteme verfügen, zieht derzeit das Interesse vieler junger Menschen weltweit im Alter von 18 bis 30 Jahren auf sich. In einer Zeit der Globalisierung und Entwicklung eröffnen sich zahlreiche Chancen für junge Menschen aus verschiedenen Regionen, insbesondere aus asiatischen Ländern mit einer jungen, gut ausgebildeten Bevölkerung. Um diesen jungen Talenten den Zugang zu neuen Möglichkeiten zu erleichtern, bringen wir Unternehmen mit dynamischen, engagierten jungen Menschen zusammen, die voller Energie und Leidenschaft für ihre berufliche Zukunft sind.",
     "page.hero-section.tilte.getstarted": "Loslegen",
+
     "page.constructionsSection.heading": "Ausbildung im Ausland ",
     "page.constructionsSection.subHeading": "Von der Wahl der passenden Schule oder Berufsausbildung über die Unterstützung bei der Visumsbeantragung und Vorbereitung auf die Deutschprüfung bis hin zur erfolgreichen Eingewöhnung in Deutschland. Wir begleiten Sie Schritt für Schritt, damit Ihr Traum Wirklichkeit wird.",
+
     "page.constructionsSection.items.1.title": "Unterstützung bei der Visabeschaffung.",
     "page.constructionsSection.items.1.desc": "Beratung und Hilfe bei der schnellen und zeitsparenden Vorbereitung Ihrer Studentenvoranmeldung.",
     "page.constructionsSection.items.2.title": "Wahl einer Schule, die zu Ihren Zielen passt.",
@@ -120,5 +122,16 @@
     "page.footer.nobisIllum.links.flexo": "Flexo",
     "page.footer.copyright": "©Urheberrecht: TALENT NETWORK",
     "page.footer.credits": "Entworfen von",
-    "page.footer.distributedBy": "Distribuiert von"
+    "page.footer.distributedBy": "Distribuiert von",
+    "page.contact.title": "Kontaktieren Sie uns noch heute",
+    "page.contact.subTitle": "Haben Sie eine Frage? Bitte lassen Sie es uns wissen! Wir werden Ihre Anfrage so schnell wie möglich bearbeiten und uns so bald wie möglich mit Ihnen in Verbindung setzen.",
+    "page.contact.address": "Unsere Adresse",
+    "page.contact.email": "Schreiben Sie uns eine E-Mail",
+    "page.contact.phone": "Rufen Sie uns an",
+    "page.contact.form.name": "Ihr Name",
+    "page.contact.form.email": "Ihre E-Mail",
+    "page.contact.form.message": "Ihre Nachricht",
+    "page.contact.form.subject": "Ihr Betreff",
+    "page.contact.form.send": "Nachricht senden",
+    "page.contact.form.success": "Ihre Nachricht wurde erfolgreich gesendet!"
 }
