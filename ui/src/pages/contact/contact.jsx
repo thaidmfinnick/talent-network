@@ -7,8 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import heroCarousel5 from "../../assets/image/hero-carousel-5.jpg";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
   AOS.init();
 
   React.useEffect(() => {
@@ -25,26 +27,26 @@ const Home = () => {
           class="container position-relative d-flex flex-column align-items-center"
           data-aos="fade"
         >
-          <h2>Contact</h2>
+          <h2>{t("page.header.nav.contact")}</h2>
         </div>
       </div>
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4 mt-1">
             <div class="col-lg-6 ">
-              <h2>Contact Us</h2>
-              <p className="contact-sub-head">Do you have a question? Please let us know! We will endeavor to process your request as quickly as possible and will contact you as soon as possible.</p>
+              <h2>{t("page.contact.title")}</h2>
+              <p className="contact-sub-head">{t("page.contact.subTitle")}</p>
               <div class="info-item d-flex flex-row gap-3 align-items-center">
                 <i class="bi bi-map"></i>
                 <div>
-                  <h4>Our Address</h4>
+                  <h4>{t("page.contact.address")}</h4>
                   <p>A108 Adam Street, New York, NY 535022</p>
                 </div>
               </div>
               <div class="info-item d-flex flex-row gap-3 align-items-center">
                 <i class="bi bi-envelope"></i>
                 <div>
-                  <h4>Email Us</h4>
+                  <h4>{t("page.contact.email")}</h4>
                   <p>contact@example.com</p>
                 </div>
               </div>
@@ -52,7 +54,7 @@ const Home = () => {
               <div class="info-item d-flex flex-row gap-3 align-items-center">
                 <i class="bi bi-telephone"></i>
                 <div>
-                  <h4>Call Us</h4>
+                  <h4>{t("page.contact.phone")}</h4>
                   <p>+1 5589 55488 55</p>
                 </div>
               </div>
@@ -77,7 +79,7 @@ const Home = () => {
                     name="name"
                     class="form-control"
                     id="name"
-                    placeholder="Your Name"
+                    placeholder={t("page.contact.form.name")}
                     required
                   />
                 </div>
@@ -87,7 +89,7 @@ const Home = () => {
                     class="form-control"
                     name="email"
                     id="email"
-                    placeholder="Your Email"
+                    placeholder={t("page.contact.form.email")}
                     required
                   />
                 </div>
@@ -97,7 +99,7 @@ const Home = () => {
                     class="form-control"
                     name="subject"
                     id="subject"
-                    placeholder="Subject"
+                    placeholder={t("page.contact.form.subject")}
                     required
                   />
                 </div>
@@ -106,7 +108,7 @@ const Home = () => {
                     class="form-control"
                     name="message"
                     rows="5"
-                    placeholder="Message"
+                    placeholder={t("page.contact.form.message")}
                     required
                   ></textarea>
                 </div>
@@ -114,11 +116,11 @@ const Home = () => {
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">
-                    Your message has been sent. Thank you!
+                    {t("page.contact.form.success")}
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit">{t("page.contact.form.send")}</button>
                 </div>
               </form>
             </div>
