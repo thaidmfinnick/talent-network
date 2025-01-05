@@ -157,7 +157,7 @@ export const Header = () => {
           <nav id="navbar" className="navbar">
             <ul>
               <li onClick={() => setActiveItem('home')}> 
-                <a href="#" className={activeItem === 'home' ? 'active' : ''} >
+                <a href="/" className={activeItem === 'home' ? 'active' : ''} >
                   {t("page.header.nav.home")}
                 </a>
               </li>
@@ -237,7 +237,7 @@ export const Header = () => {
                 </ul>
               </li>
               <li onClick={() => setActiveItem('contract')}>
-                <a href="#" className={activeItem === 'contract' ? 'active' : ''}>
+                <a href="/contact" className={activeItem === 'contract' ? 'active' : ''}>
                   {t("page.header.nav.contact")}
                 </a>
               </li>

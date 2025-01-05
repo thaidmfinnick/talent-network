@@ -12,6 +12,7 @@ import { ServicesSection } from "../../components/SevicesSection/SevicesSection"
 import { AltServicesSection } from "../../components/AltServicesSection/AltServicesSection";
 import { FeaturesSection } from "../../components/FeaturesSection/FeaturesSection";
 import { RecentPostsSection } from "../../components/RecentPostsSection/RecentPostsSection";
+import { ContactSection } from "../../components/ContactSection/ContactSection";
 
 const Home = () => {
   AOS.init();
@@ -27,6 +28,7 @@ const Home = () => {
       <ServicesSection />
       <AltServicesSection />
       <FeaturesSection />
+      <ContactSection />
       {/* <RecentPostsSection /> */}
     </>
   );
