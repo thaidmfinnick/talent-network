@@ -54,28 +54,25 @@ export const Footer = () => {
               </div>
               {/* End footer info column*/}
               <div className="col-lg-2 col-md-3 footer-links">
-                <h4>{t("page.footer.usefulLinks.title")}</h4>
+                <h4>{t("page.footer.ourServices.title")}</h4>
                 <ul>
                   <li>
-                    <a href="#">{t("page.footer.usefulLinks.links.home")}</a>
+                    <a href="#">{t("page.footer.ourServices.links.webDesign")}</a>
                   </li>
                   <li>
-                    <a href="#">{t("page.footer.usefulLinks.links.about")}</a>
+                    <a href="#">{t("page.footer.ourServices.links.webDevelopment")}</a>
                   </li>
                   <li>
-                    <a href="#">{t("page.footer.usefulLinks.links.services")}</a>
+                    <a href="#">{t("page.footer.ourServices.links.productManagement")}</a>
                   </li>
                   <li>
-                    <a href="#">{t("page.footer.usefulLinks.links.terms")}</a>
+                    <a href="#">{t("page.footer.ourServices.links.marketing")}</a>
                   </li>
                   <li>
-                    <a href="#">{t("page.footer.usefulLinks.links.privacy")}</a>
+                    <a href="#">{t("page.footer.ourServices.links.graphicDesign")}</a>
                   </li>
                 </ul>
               </div>
-              {/* End footer links column*/}
-             
-              {/* End footer links column*/}
               <div className="col-lg-2 col-md-3 footer-links">
                 <h4>{t("page.footer.hicSolutasetp.title")}</h4>
                 <ul>
@@ -126,14 +123,8 @@ export const Footer = () => {
             <div className="copyright">
               {t("page.footer.copyright", {
                 year: new Date().getFullYear(),
-                company: "UpConstruction"
+                company: "TALENT NETWORK"
               })}
-            </div>
-            <div className="credits">
-              {t("page.footer.credits")}{" "}
-              <a href="https://bootstrapmade.com/">BootstrapMade</a>{" "}
-              {t("page.footer.distributedBy")}{" "}
-              <a href="https://themewagon.com">ThemeWagon</a>
             </div>
           </div>
         </div>

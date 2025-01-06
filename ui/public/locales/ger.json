@@ -100,12 +100,12 @@
     "page.footer.contact.phone.value": "+1 5589 55488 55",
     "page.footer.contact.email.label": "Email",
     "page.footer.contact.email.value": "info@example.com",
-    "page.footer.usefulLinks.title": "Nützliche Links",
-    "page.footer.usefulLinks.links.home": "Startseite",
-    "page.footer.usefulLinks.links.about": "Über uns",
-    "page.footer.usefulLinks.links.services": "Dienstleistungen",
-    "page.footer.usefulLinks.links.terms": "Nutzungsbedingungen",
-    "page.footer.usefulLinks.links.privacy": "Datenschutzbestimmungen",
+    "page.footer.ourServices.title": "Unsere Dienstleistungen",
+    "page.footer.ourServices.links.webDesign": "Webdesign",
+    "page.footer.ourServices.links.webDevelopment": "Webentwicklung",
+    "page.footer.ourServices.links.productManagement": "Produktmanagement",
+    "page.footer.ourServices.links.marketing": "Marketing",
+    "page.footer.ourServices.links.graphicDesign": "Grafikdesign",
     "page.footer.hicSolutasetp.title": "Hic solutasetp",
     "page.footer.hicSolutasetp.links.molestiae": "Molestiae accusamus iure",
     "page.footer.hicSolutasetp.links.excepturi": "Excepturi dignissimos",
@@ -118,7 +118,6 @@
     "page.footer.nobisIllum.links.dinera": "Dinera",
     "page.footer.nobisIllum.links.trodelas": "Trodelas",
     "page.footer.nobisIllum.links.flexo": "Flexo",
-    "page.footer.copyright": "©Urheberrecht: TALENT NETWORK",
-    "page.footer.credits": "Entworfen von",
-    "page.footer.distributedBy": "Distribuiert von"
+    "page.footer.copyright": "©Urheberrecht: TALENT NETWORK"
+
 }
