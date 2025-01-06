@@ -118,6 +118,18 @@
     "page.footer.nobisIllum.links.dinera": "Dinera",
     "page.footer.nobisIllum.links.trodelas": "Trodelas",
     "page.footer.nobisIllum.links.flexo": "Flexo",
-    "page.footer.copyright": "©Urheberrecht: TALENT NETWORK"
-
+    "page.footer.copyright": "©Urheberrecht: TALENT NETWORK",
+    "page.footer.credits": "Entworfen von",
+    "page.footer.distributedBy": "Distribuiert von",
+    "page.contact.title": "Kontaktieren Sie uns noch heute",
+    "page.contact.subTitle": "Haben Sie eine Frage? Bitte lassen Sie es uns wissen! Wir werden Ihre Anfrage so schnell wie möglich bearbeiten und uns so bald wie möglich mit Ihnen in Verbindung setzen.",
+    "page.contact.address": "Unsere Adresse",
+    "page.contact.email": "Schreiben Sie uns eine E-Mail",
+    "page.contact.phone": "Rufen Sie uns an",
+    "page.contact.form.name": "Ihr Name",
+    "page.contact.form.email": "Ihre E-Mail",
+    "page.contact.form.message": "Ihre Nachricht",
+    "page.contact.form.subject": "Ihr Betreff",
+    "page.contact.form.send": "Nachricht senden",
+    "page.contact.form.success": "Ihre Nachricht wurde erfolgreich gesendet!"
 }

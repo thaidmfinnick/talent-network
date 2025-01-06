@@ -1,10 +1,25 @@
     $primary-color: #f2b642;
     $secondary-color: #0857a3;
 
-.navbar .social-link-icon i {
-    color: white; 
-  }
-  .navbar .dropdown a span {
-    color: white; 
-  }
-  
+.top-navbar {
+  background-color: white;  
+  color: black; 
+}
+
+.top-navbar a {
+  color: black;  
+}
+.top-navbar .social-link-icon i {
+  color: black;  
+}
+
+
+.top-navbar .dropdown a span {
+  color: black;  
+}
+
+
+.top-navbar .dropdown i {
+  color: black;  
+}
+
