@@ -141,10 +141,7 @@ export const Header = () => {
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center">
             {/* Uncomment the line below if you also wish to use an image logo */}
-            {/* <img src="assets/img/logo.png" alt=""> */}
-
-            <img src={logo} alt="anh_logo" width="70" height="70"  />
-
+            <img src={logo} alt="anh_logo" style={{ maxWidth: '25%', height: 'auto' }}   />
           </a>
           <i
             className="mobile-nav-toggle mobile-nav-show bi bi-list"

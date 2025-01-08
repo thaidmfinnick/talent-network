@@ -100,12 +100,12 @@
     "page.footer.contact.phone.value": "+1 5589 55488 55",
     "page.footer.contact.email.label": "Email",
     "page.footer.contact.email.value": "info@example.com",
-    "page.footer.usefulLinks.title": "Useful Links",
-    "page.footer.usefulLinks.links.home": "Home",
-    "page.footer.usefulLinks.links.about": "About us",
-    "page.footer.usefulLinks.links.services": "Services",
-    "page.footer.usefulLinks.links.terms": "Terms of service",
-    "page.footer.usefulLinks.links.privacy": "Privacy policy",
+    "page.footer.ourServices.title": "Our Services",
+    "page.footer.ourServices.links.webDesign": "Web Design",
+    "page.footer.ourServices.links.webDevelopment": "Web Development",
+    "page.footer.ourServices.links.productManagement": "Product Management",
+    "page.footer.ourServices.links.marketing": "Marketing",
+    "page.footer.ourServices.links.graphicDesign": "Graphic Design",
     "page.footer.hicSolutasetp.title": "Hic solutasetp",
     "page.footer.hicSolutasetp.links.molestiae": "Molestiae accusamus iure",
     "page.footer.hicSolutasetp.links.excepturi": "Excepturi dignissimos",
@@ -132,4 +132,5 @@
     "page.contact.form.subject": "Your subject",
     "page.contact.form.send": "Send message",
     "page.contact.form.success": "Your message has been sent successfully!"
+
 }
