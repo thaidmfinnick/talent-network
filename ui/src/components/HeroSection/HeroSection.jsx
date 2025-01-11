@@ -15,7 +15,8 @@ export const HeroSection = () => {
                 <div class="container">
                     <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h2 data-aos="fade-down">{t("page.hero-section.tilte.welcome")}<span>{t("page.hero-section.tilte.construction")}</span></h2>
+                        <h2 data-aos="fade-down">{t("page.hero-section.tilte.welcome")}</h2>
+                        {/* <span>{t("page.hero-section.tilte.construction")}</span> */}
                         <p data-aos="fade-up">{t("page.hero-section.tilte.lorem")}</p>
                         <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">{t("page.hero-section.tilte.getstarted")}</a>
                     </div>
