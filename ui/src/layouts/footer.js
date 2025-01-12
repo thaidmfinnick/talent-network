@@ -53,7 +53,7 @@ export const Footer = () => {
                 </div>
               </div>
               {/* End footer info column*/}
-              <div className="col-lg-2 col-md-3 footer-links">
+              {/* <div className="col-lg-2 col-md-3 footer-links">
                 <h4>{t("page.footer.ourServices.title")}</h4>
                 <ul>
                   <li>
@@ -72,8 +72,8 @@ export const Footer = () => {
                     <a href="#">{t("page.footer.ourServices.links.graphicDesign")}</a>
                   </li>
                 </ul>
-              </div>
-              <div className="col-lg-2 col-md-3 footer-links">
+              </div> */}
+              {/* <div className="col-lg-2 col-md-3 footer-links">
                 <h4>{t("page.footer.hicSolutasetp.title")}</h4>
                 <ul>
                   <li>
@@ -92,9 +92,9 @@ export const Footer = () => {
                     <a href="#">{t("page.footer.hicSolutasetp.links.sitQuas")}</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               {/* End footer links column*/}
-              <div className="col-lg-2 col-md-3 footer-links">
+              {/* <div className="col-lg-2 col-md-3 footer-links">
                 <h4>{t("page.footer.nobisIllum.title")}</h4>
                 <ul>
                   <li>
@@ -113,7 +113,7 @@ export const Footer = () => {
                     <a href="#">{t("page.footer.nobisIllum.links.flexo")}</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               {/* End footer links column*/}
             </div>
           </div>
