@@ -4,12 +4,15 @@ import "./header.scss";
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
 import logo from "../assets/image/logo_main.png";
+import { useLocation } from "react-router-dom";
 
 export const Header = () => {
   const [scrollY, setScrollY] = useState(0);
 
   const [localLanguage, setLocalLanguage] = useState("");
   const { t, i18n } = useTranslation();
+  const location = useLocation();
+
   const [activeItem, setActiveItem] = useState('home');
   const [dropDown1Active, setDropDown1Active] = useState(false);
   const [dropDown2Active, setDropDown2Active] = useState(false);
@@ -154,7 +157,7 @@ export const Header = () => {
           <nav id="navbar" className="navbar">
             <ul>
               <li onClick={() => setActiveItem('home')}> 
-                <a href="/" className={activeItem === 'home' ? 'active' : ''} >
+                <a href="/" className={location.pathname === '/' ? 'active' : ''} >
                   {t("page.header.nav.home")}
                 </a>
               </li>
@@ -233,8 +236,8 @@ export const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li onClick={() => setActiveItem('contract')}>
-                <a href="/contact" className={activeItem === 'contract' ? 'active' : ''}>
+              <li onClick={() => setActiveItem('contact')}>
+                <a href="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
                   {t("page.header.nav.contact")}
                 </a>
               </li>
