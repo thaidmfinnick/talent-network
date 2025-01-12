@@ -1,25 +1,36 @@
     $primary-color: #f2b642;
     $secondary-color: #0857a3;
 
-.top-navbar {
-  background-color: white;  
-  color: black; 
-}
+    .top-navbar {
+      background-color:#79d0d3;
+      color: black;
+    }
 
-.top-navbar a {
-  color: black;  
-}
-.top-navbar .social-link-icon i {
-  color: black;  
-}
+    .top-navbar a {
+      color: black;
+    }
 
-
-.top-navbar .dropdown a span {
-  color: black;  
-}
+    .top-navbar .social-link-icon i {
+      color: white;
+    }
 
 
-.top-navbar .dropdown i {
-  color: black;  
-}
+    .top-navbar .dropdown a span {
+      color: white;
+    }
 
+
+    .top-navbar .dropdown i {
+      color: white;
+    }
+
+    .icon-header-container  {
+      background-color: #79d0d3;
+    }
+
+    // .container-fluid {
+    //   background-color: white;
+    // }
+    .container-fluid{
+      background-color: #79d0d3;
+    }
