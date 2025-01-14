@@ -4,12 +4,15 @@ import "./header.scss";
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
 import logo from "../assets/image/logo_main.png";
+import { useLocation } from "react-router-dom";
 
 export const Header = () => {
   const [scrollY, setScrollY] = useState(0);
 
   const [localLanguage, setLocalLanguage] = useState("");
   const { t, i18n } = useTranslation();
+  const location = useLocation();
+
   const [activeItem, setActiveItem] = useState('home');
   const [dropDown1Active, setDropDown1Active] = useState(false);
   const [dropDown2Active, setDropDown2Active] = useState(false);
@@ -137,11 +140,12 @@ export const Header = () => {
           </ul>
         </nav>
       </div>
-      <header id="header" className="header d-flex align-items-center">
+      <header id="header" className="header d-flex align-items-center mt-1">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center">
+            <div className="logo-wrap"></div>
             {/* Uncomment the line below if you also wish to use an image logo */}
-            <img src={logo} alt="anh_logo" style={{ maxWidth: '15%', height: 'auto' }}   />
+            <img src={logo} alt="anh_logo" style={{ maxWidth: '15%', height: 'auto', zIndex: 2 }}   />
           </a>
           <i
             className="mobile-nav-toggle mobile-nav-show bi bi-list"
@@ -154,7 +158,7 @@ export const Header = () => {
           <nav id="navbar" className="navbar">
             <ul>
               <li onClick={() => setActiveItem('home')}> 
-                <a href="/" className={activeItem === 'home' ? 'active' : ''} >
+                <a href="/home" className={location.pathname === '/home' ? 'active' : ''} >
                   {t("page.header.nav.home")}
                 </a>
               </li>
@@ -233,8 +237,8 @@ export const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li onClick={() => setActiveItem('contract')}>
-                <a href="/contact" className={activeItem === 'contract' ? 'active' : ''}>
+              <li onClick={() => setActiveItem('contact')}>
+                <a href="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
                   {t("page.header.nav.contact")}
                 </a>
               </li>
