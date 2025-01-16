@@ -140,8 +140,8 @@ export const Header = () => {
           </ul>
         </nav>
       </div>
-      <header id="header" className="header d-flex align-items-center mt-1">
-        <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <header id="header" className="header d-flex align-items-center">
+        <div className="header-container container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center">
             <div className="logo-wrap"></div>
             {/* Uncomment the line below if you also wish to use an image logo */}
