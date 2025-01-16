@@ -276,12 +276,14 @@ section {
 }
 
 .header {
-  z-index: 9;
-  position: absolute;
-  padding: 0;
-  top: 35px;
+  z-index: 11;
+  position: sticky;
+  background-color: white;
+  padding: 0 0 10px;
+  top: 31px;
   left: 0;
   right: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 6px 8px -3px;
 }
 
 .header .logo img {
@@ -337,7 +339,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
@@ -375,7 +377,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #000;
   }
 
   .navbar .dropdown ul {
@@ -586,7 +588,14 @@ section {
 
 .icon-header-container {
   display: flex;
-  z-index: 1000;
+  z-index: 10;
+  padding: 0 16px;
+  position: sticky;
+  background-color: white;
+}
+
+.header-container {
+  padding: 0 16px;
 }
 
 /*--------------------------------------------------------------
@@ -811,7 +820,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     z-index: 9998;
-    padding-right: 10px;
+    padding-right: 6px;
   }
 
   .mobile-nav-hide {
@@ -840,6 +849,10 @@ section {
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
     z-index: 9996;
+  }
+
+  .header {
+    top: 35px;
   }
 }
 
